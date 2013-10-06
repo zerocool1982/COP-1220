@@ -12,7 +12,7 @@ int main()
 
     printf("\nPress 1 for Addition\n");
     printf("\nPress 2 for Subtraction\n");
-    printf("\nPress 3 for Multiplication\n");
+    printf("\nPress 3 for Multiplication\n\n");
 
     printf("Enter your choice: ");
     scanf("%d", &choice);
@@ -28,13 +28,13 @@ int main()
         case 3: result = num1 * num2;
         break;
 
-        default:
-        printf("You have entered an incorrect choice!");
+        default: result = 0;
+        printf("\nYou have entered an incorrect choice!");
 
 
     }
 
-    printf("Your answer is %d", result);
+    printf("\nYour result is %d\n\n", result);
 
     return 0;
 
