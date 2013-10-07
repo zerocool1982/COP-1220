@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define TRUE 1
 
-
+//nested loop
 //this will continue to loop back and ask you for a valid number 1 - 12
 //and displays and error when an incorrect number is entered
 
