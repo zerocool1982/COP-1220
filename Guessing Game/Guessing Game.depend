@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381109694 source:c:\users\josh\desktop\fall semester\prog. in c\home 10-05-2013\guessing game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
